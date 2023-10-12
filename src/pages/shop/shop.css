@@ -1,0 +1,39 @@
+.products{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 30px;
+}
+
+.product_card{
+	width: 470px;
+	border: 1px solid #b8b8b8;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+.card_image{
+	height: 350px;
+	width: 400px;
+}
+.shop_title{
+	font-size: 27px;
+	font-family: 700;
+	text-align: center;
+}
+.card_description{
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	padding-left: 14px;
+}
+.AddToCartBtn{
+	background-color: transparent;
+	margin: 10px;
+	transition: all .1s;
+}
+.AddToCartBtn:hover{
+	background-color: rgb(21, 10, 27);
+	border: 2px solid transparent;
+	color:#fff
+}
